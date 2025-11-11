@@ -36,6 +36,6 @@ function YieldEstimationGUI
 
         obj = YieldModel(rain, fert, soil, sunlight, farmSize);
         outputText = evalc('obj.estimateYield()');
-        outputArea.Value = strsplit(outputText, newline);
+        outputArea.Value = strsplit(outputText, newline); 0
     end
 end

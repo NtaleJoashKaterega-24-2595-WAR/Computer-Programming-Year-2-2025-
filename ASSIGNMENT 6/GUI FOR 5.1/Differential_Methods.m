@@ -19,7 +19,7 @@ classdef Differential_Methods < Numerical_Methods
             x1 = x0 - obj.F(x0)/obj.F_d(x0);
 
             if abs(x1 - x0) < obj.Tol
-                fprintf('Newton-Raphson Root = %.5f\n', x1);
+                fprintf('Newton-Raphson Root = %.5f  \n', x1);
                 obj.X_0 = x1;
             else
                 obj.X_0 = x1;

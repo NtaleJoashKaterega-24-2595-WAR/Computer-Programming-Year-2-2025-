@@ -37,7 +37,7 @@ classdef YieldModel < YieldEstimator
             fprintf('Sunlight: %.2f hours/day\n', obj.Sunlight);
             fprintf('Farm Size: %.2f hectares\n', obj.FarmSize);
             fprintf('\n----------------------------------------\n');
-            fprintf('Predicted Yield: %.4f tonnes/hectare\n', predYield);
+            fprintf('Predicted Yield: %.4f tons/hectare\n', predYield);
         end
     end
 end
